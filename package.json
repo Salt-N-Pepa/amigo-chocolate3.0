@@ -1,0 +1,24 @@
+{
+  "name": "amichocolate2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "mongoose-paginate": "^5.0.3"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  }
+}

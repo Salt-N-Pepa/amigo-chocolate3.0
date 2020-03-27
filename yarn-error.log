@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add env-cmd nodemon –dev
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Alefe\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Alefe\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Alefe\AppData\Local\Microsoft\WindowsApps;C:\Users\Alefe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Alefe\AppData\Roaming\npm;C:\Users\Alefe\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+      at new ClientRequest (_http_client.js:139:13)
+      at Object.request (https.js:309:10)
+      at Request.module.exports.Request.start (C:\Program Files (x86)\Yarn\lib\cli.js:141289:32)
+      at Request.module.exports.Request.end (C:\Program Files (x86)\Yarn\lib\cli.js:142048:10)
+      at end (C:\Program Files (x86)\Yarn\lib\cli.js:141102:14)
+      at Immediate._onImmediate (C:\Program Files (x86)\Yarn\lib\cli.js:141116:7)
+      at processImmediate (internal/timers.js:439:21)
+
+npm manifest: 
+  {
+    "name": "amichocolate2.0",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.9.6",
+      "mongoose-paginate": "^5.0.3"
+    },
+    "scripts": {
+      "start": "nodemon index.js"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
